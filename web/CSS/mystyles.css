@@ -1,0 +1,41 @@
+body{ 
+
+    background-color:snow;
+}
+.affix {
+    top: 20px;
+}
+p{
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    margin: 5% 0;
+    color: #AAA;
+    font-size: 1em;
+}
+
+.typo{
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    margin: 5% 0;
+    color: #AAA;
+    font-size: 1em;
+}
+
+.btn.btn-sm{
+    border-radius: 15px;
+}
+@font-face{
+    font-family:MUSIC_light;
+    src: url(MUSIC_light.otf);
+}
+#silencio{
+    font-family: MUSIC_light;
+    color:#fff;
+    font-size: 100px;
+    text-align:center;
+
+}
+
+.container-fluid{
+    background-color:steelblue; 
+    height:200px;
+   
+}

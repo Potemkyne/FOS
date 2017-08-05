@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}FOS{% endblock %}</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+        {% block stylesheets %}
+            <link rel="stylesheet"  href="{{ asset('CSS/mystyles.css') }}">
+        {% endblock %}
+    </head>
+    <body>
+        {% block header %}
+            <div class="container-fluid" >
+                <div id="fos"><a href="#">FOS</a></div>
+            </div>
+            <br>
+
+            <div class="container">
+                <div class="row">
+                    <nav class="col-sm-3">
+                        <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
+                            <li classe="active"><a href="{{ path("homepage") }}">HOME</a></li>
+                            <li><a href="{{ path("user_test") }}">USER TEST</a></li>
+                            <li><a href="{{ path("admin_test") }}">ADMIN TEST</a></li> 
+                            <li><a href="{{ path("super_admin_test") }}">SUPER ADMIN TEST</a></li>
+                            <li><a href="{{ path("fos_user_registration_register") }}">REGISTER</a></li>
+                            <li><a href= "{{ path("fos_user_profile_show") }}">PROFIL SHOW</a></li>
+                            <li><a href= "{{ path("fos_user_profile_edit") }}">PROFILE EDIT</a></li>
+                            <li><a href= "{{ path("fos_user_change_password") }}">CHANGE PASSWORD</a></li>
+                            <li><a href= "{{ path("fos_user_registration_check_email") }}">REGISTRATION CHECK EMAIL</a></li>
+                        </ul>
+                    </nav>
+                    <div class="col-sm-9">
+                        {% block login %} 
+                        {% endblock  %}
+                        {% block fos_user_content %}
+                        {% endblock fos_user_content %}
+                        {% block content %}
+                        {% endblock content %}
+                    </div>
+                </div>
+            </div> 
+        {% endblock %}
+    </body>
+</html>
