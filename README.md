@@ -1,72 +1,17 @@
-Symfony Standard Edition
-========================
+<p>Surcharge du formulaire RegistrationType:</p>
+<img src="https://user-images.githubusercontent.com/14042789/28996445-2a6665f0-7a01-11e7-961a-bcdb3911437f.jpg" />
+<img src="https://user-images.githubusercontent.com/14042789/28996447-2b75f320-7a01-11e7-90e7-e30ec6a29b02.jpg" />
 
-Welcome to the Symfony Standard Edition - a fully-functional Symfony
-application that you can use as the skeleton for your new applications.
+<p>Connexion:</p>
+<img src="https://user-images.githubusercontent.com/14042789/28996459-55aa2f8a-7a01-11e7-9044-fe311e0e8b46.jpg" />
+<img src="https://user-images.githubusercontent.com/14042789/28996450-35e250b0-7a01-11e7-93d4-88f696cb5c20.jpg" />
 
-For details on how to download and get started with Symfony, see the
-[Installation][1] chapter of the Symfony Documentation.
+<p>Modification mdp:</p>
+<img src="https://user-images.githubusercontent.com/14042789/28996460-5b28dbe6-7a01-11e7-9f41-a65c2bfba9b1.jpg" />
+<img src="https://user-images.githubusercontent.com/14042789/28996461-5ce8abbe-7a01-11e7-881b-aa23b7234ee7.jpg" />
 
-What's inside?
---------------
+<p>Exemple 1:</p>
+<img src="https://user-images.githubusercontent.com/14042789/28996467-6d3e5202-7a01-11e7-8821-c03c61a9661d.png" />
 
-The Symfony Standard Edition is configured with the following defaults:
-
-  * An AppBundle you can use to start coding;
-
-  * Twig as the only configured template engine;
-
-  * Doctrine ORM/DBAL;
-
-  * Swiftmailer;
-
-  * Annotations enabled for everything.
-
-It comes pre-configured with the following bundles:
-
-  * **FrameworkBundle** - The core Symfony framework bundle
-
-  * [**SensioFrameworkExtraBundle**][6] - Adds several enhancements, including
-    template and routing annotation capability
-
-  * [**DoctrineBundle**][7] - Adds support for the Doctrine ORM
-
-  * [**TwigBundle**][8] - Adds support for the Twig templating engine
-
-  * [**SecurityBundle**][9] - Adds security by integrating Symfony's security
-    component
-
-  * [**SwiftmailerBundle**][10] - Adds support for Swiftmailer, a library for
-    sending emails
-
-  * [**MonologBundle**][11] - Adds support for Monolog, a logging library
-
-  * **WebProfilerBundle** (in dev/test env) - Adds profiling functionality and
-    the web debug toolbar
-
-  * **SensioDistributionBundle** (in dev/test env) - Adds functionality for
-    configuring and working with Symfony distributions
-
-  * [**SensioGeneratorBundle**][13] (in dev env) - Adds code generation
-    capabilities
-
-  * [**WebServerBundle**][14] (in dev env) - Adds commands for running applications
-    using the PHP built-in web server
-
-  * **DebugBundle** (in dev/test env) - Adds Debug and VarDumper component
-    integration
-
-All libraries and bundles included in the Symfony Standard Edition are
-released under the MIT or BSD license.
-
-Enjoy!
-
-[1]:  https://symfony.com/doc/3.3/setup.html
-[6]:  https://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/index.html
-[7]:  https://symfony.com/doc/3.3/doctrine.html
-[8]:  https://symfony.com/doc/3.3/templating.html
-[9]:  https://symfony.com/doc/3.3/security.html
-[10]: https://symfony.com/doc/3.3/email.html
-[11]: https://symfony.com/doc/3.3/logging.html
-[13]: https://symfony.com/doc/current/bundles/SensioGeneratorBundle/index.html
-[14]: https://symfony.com/doc/current/setup/built_in_web_server.html
+<p>Exemple 2:</p>
+<img src="https://user-images.githubusercontent.com/14042789/28996468-6f16bc7c-7a01-11e7-9118-89e5887cce6b.png" />
